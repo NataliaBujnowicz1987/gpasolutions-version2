@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Solutions - new websites</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300;500&display=swap" rel="stylesheet"> 
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    body {
+        background-color: #151948;
+        width: 100%;
+        min-height: 100vh;
+        padding: 2em 5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: 'Exo', sans-serif;
+        background-image: url('img.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    div {
+        background-color: rgba(21, 25, 72, 0.8);
+        color: white;
+        padding: 3em;
+        /* width: 60%; */
+        box-shadow: 0px 0px 2px 0px #6d6b6b;
+    }
+
+    p {
+       margin-bottom: 1em; 
+    }
+
+    p, a {
+        font-size: 18px;
+    }
+
+    h1, h2 {
+        margin: 1.5em 0;
+    }
+
+    a {
+        text-decoration: none;
+        color:rgb(134, 134, 219);
+ 
+        transition: all 1s linear;
+    }
+
+    a:hover {
+        color: rgb(62, 62, 173);
+    }
+
+    .contact-details {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+        margin: 0 auto;
+    }
+
+    .contact-details a {
+       color: white;
+    }
+
+    @media only screen and (max-width: 800px) {
+        p, a {
+            font-size: 16px;
+        }
+
+        h1 {
+            font-size: 26px;
+        }
+
+        .contact-details {
+        flex-direction: column;
+   
+        gap: 0.2em;
+     
+    }
+    }
+
+    @media only screen and (max-width: 600px) {
+        body {
+            padding: 1em 3em;
+            background-position: 65% 45%;
+        }
+       div {
+           padding: 2em;
+       }
+    }
+
+    @media only screen and (max-width: 400px) {
+        body {
+            padding: 1em 2em;
+        }
+       div {
+           padding: 2em 1em;
+       }
+       h1 {
+            font-size: 22px;
+            font-size: 22px;
+        }
+    }
+
+</style>
+
+</head>
+<body>
+
+
+    <div>
+        <h1>News from GPA Solutions.</h1>
+        <h2>From 2022 we have changed how we deliver our training.</h2>
+
+        <p>We are no longer delivering classroom based QQI accredited courses.</p>
+
+        <p>For online courses in Accounts, Payroll and Taxation contact either
+            Sonia Woods or Brendan Madden</p>
+            <br/>
+
+        <h3>Sonia Woods <br/> 
+            <a href='https://www.soniawoods.ie/' target='_blank'> www.soniawoods.ie</a> 
+        </h3>
+        <br/>
+        <span class='contact-details'>
+            <a tel='+353 87 1224432'>Mobile: 087 122 4432</a><br/>
+            <a href="mailto:info@soniawoods.ie">Email: info@soniawoods.ie</a>
+        </span>
+      
+       
+        <br>
+        <br>
+        <h3>Brendan Madden <br/> <a href='https://www.platonow.ie/' target='_blank'> www.platonow.ie</a></h3>
+        <br/>
+        <span class='contact-details'>
+            <a tel='+353 87 233 7729'>Mobile: 087 233 7729</a><br/>
+            <a href="mailto:info@platonow.ie">Email: info@platonow.ie</a>
+        </span>
+    </div>
+    
+</body>
+</html>
